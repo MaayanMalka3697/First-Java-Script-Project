@@ -1,0 +1,248 @@
+* {
+    direction: rtl;
+    text-align: center;
+    font-family: Fb Afarsek;
+    
+}
+/* .images
+{
+height: 30px;
+width: 50px;
+margin-top: 10%;
+
+} */
+#easy,body
+{
+/* position: relative;
+z-index: 0; */
+background-image: url("image.jpg") ;
+background-repeat: no-repeat;
+background-size: 100%; 
+
+}
+#regular
+{
+background-image: url("תמונות/regular.png") ;
+background-repeat: no-repeat;
+background-size: 100%; 
+
+    
+}
+#b{
+text-align: center;
+margin-left: 13%;
+margin-bottom: 0;
+margin-right: 30%; 
+margin-top:24vh ;
+/* border: 3px solid black; */
+width: 25vw;
+height: 35vw;
+/* display: ; */
+
+}
+#b3{/*גוף הבובה*/
+    text-align: center;
+    /* margin-left: 13%; */
+    margin-bottom: 0;
+    /* margin-right: 30%;  */
+    margin-top:24vh ;
+    /* border: 3px solid black; */
+    width: 25vw;
+    height: 35vw;
+    /* display: ; */
+    
+    
+    }
+div,img{ 
+    float: inline-end;
+    /* display: flex; */
+}
+
+#cupboard
+{
+margin-top: 10vh;
+margin-right: 17%;
+/* margin-left: 100px; */
+text-align: center;
+/* border: 3px solid black; */
+width: 38vw;
+height: 80vh;
+display: grid;
+grid-template-columns:100%;
+grid-template-rows: 20% 10%  20% 20%;
+
+}
+#cupboard3
+{
+/* margin-top: 10vh;*/
+margin-right: 5%; 
+/* margin-left: 100px; */
+text-align: center;
+/* border: 3px solid black; */
+width: 38vw;
+height: 80vh;
+display: grid;
+grid-template-columns:100%;
+grid-template-rows: 20% 10%  20% 20%;
+
+}
+#hair
+{
+height: 17vh;
+/* width: 10vw; */
+/* margin-left: 20%; */
+/* margin-top: 4px; */
+/* margin-right: 25%; */
+}
+#eyes 
+{
+height: 10vh;
+/* width: 25vw; */
+/* margin-top: 4px; */
+    
+}
+#nouse
+{
+height: 5vh;
+/* width: 3vw; */
+/* margin-top: 4px; */
+}
+#mouse
+{
+
+    height: 8vh;
+    /* width: 25vw; */
+   /* margin-top: 4px; */
+}
+#clothes
+{
+
+    height: 25vh;
+    /* width: 25vw; */
+}
+#eyes,#hair,#nouse,#mouse,#clothes
+{
+ /* border: 2px solid black; */
+/*width: 100%;
+height: 90px; */
+text-align: center;
+
+}
+div img
+{
+    /* margin: 3%; */
+    margin-right: 10%;
+    text-align: center;
+}
+.clothes
+{
+/* width: 263px;
+height: 163px; */
+
+width: 50px;
+height: 40px;
+
+}
+/* #h1
+{
+
+
+} */
+.wrapper {
+    display: grid;
+    grid-template-columns:40% 10% 50%;
+    grid-template-rows: 100%;
+}
+.wrapper3 {
+    display: grid;
+    grid-template-columns:60% 40%;
+    grid-template-rows: 100%;
+}
+#counter
+{
+/* border: 3px solid black; */
+height: 21vh;
+width: 21vw;
+margin-right:10vw; 
+margin-top: 15vh;
+font-size: 50px;
+text-align: center;
+}
+
+#e1,#n1
+{
+    margin-top: 12vh;
+}
+#m1
+{
+    margin-top: 5vh;
+
+}
+#imghair,#imgeyes,#imgnouse,#imgmouse,#imgclothes
+{
+/* margin-top: 2%; */
+
+}
+p{
+font-size: large;
+color: black;
+text-align: center;
+}
+
+#divi
+{
+    /* ניצחת */
+    position: block;
+    display: none;
+    width: 25vw;
+    height: 40vh;
+    margin-top:20vh;
+    /* margin-left: 100vw; */
+    margin-right: 20%;
+    background-image: url("תמונות/homePage.gif") ;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    text-align: center;
+    font-size: 70px;
+    color: white;
+
+    font: bold;
+}
+#check,#win
+{
+display: none;
+
+
+}
+#index
+{
+    background-image: url("תמונות/background2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--טופס הרשמה-->
+    <form class="see"  action="enter.html">
+        <p>משתמש יקר! הזדהה כדי להכנס למערכת</p>
+        <p><label>סיסמא</label><span onclick="eye()">&#128065;</span><input maxlength="6" onkeydown="keyCheck()"
+             title="סיסמא של 6 ספרות" placeholder="6 ספרות" required type="password" autofocus /></p>
+
+             
+        <!-- enter the name -->
+        <p><label>שם</label><input id="userName" type="text" required /></p>
+        <p>לא תוכל לשחק לפני שתכנס למערכת!</p>
+        <!-- <p>
+            <a href="enter.html">כניסה</a>
+        </p> -->
+        <a href="../מעודכן/enter.html"><button type="submit" onclick="saveName()">כניסה</button></a>
+        <script src="js.js"></script>
+    </form>
+   
+   
+</body>
+
+</html>

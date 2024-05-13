@@ -1,0 +1,45 @@
+ *{
+    direction: rtl;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+ }
+.images
+{
+height: 30px;
+width: 50px;
+margin-top: 10%;
+
+}
+body
+{
+/* position: relative;
+z-index: 0; */
+background-image: url("image.jpg") ;
+background-repeat: no-repeat;
+background-size: cover; 
+
+}
+#b{
+margin-left: 13%;
+margin-bottom: 0;
+margin-right: 65%;
+margin-top:0 ;
+border: 3px solid black;
+width: 350px;
+height: 520px;
+
+}
+#eyes,#hair,#nouse,#mouse,#clothes
+{
+border: 2px solid black;
+width: 100%;
+height: 90px;
+}
+#cupboard
+{
+margin-top: 10%;
+margin-right: 10%;
+margin-left: 65%;
+}
+
+
